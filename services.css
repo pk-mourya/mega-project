@@ -1,0 +1,134 @@
+h1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 1px 1px paleturquoise;
+
+}
+
+/* .services {
+    position: relative;
+    background-color: red;
+    display: grid;
+    grid-template-columns: auto;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+} */
+
+.slide {
+    position: relative;
+    padding: 150px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: auto;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+.slide img {
+
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+
+}
+
+hr {
+    margin-top: 50px;
+}
+
+/* --------------------------------------------------Services----------------------------------------------------------- */
+.services {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+    /* background-color: red; */
+    gap: 20px;
+
+
+
+}
+
+.theCard {
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 2s ease;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+    /* background-color: red; */
+    gap: 20px;
+
+}
+
+.services1 {
+
+    display: grid;
+    grid-template-columns: 50% auto;
+    box-shadow: 0px 0px 10px 5px black;
+    border-radius: 5px;
+    padding: 100px;
+
+
+}
+
+.services2 {
+    position: absolute;
+    padding: 100px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+
+}
+
+.services1:hover {
+    transition: 3s;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px purple;
+}
+
+.services1 img {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+.services1 img:hover {
+    box-shadow: 0px 0px 5px 5px purple;
+    border-radius: 50%;
+    transition: 4s;
+}
+
+/* .services2 {
+
+    position: absolute;
+    box-shadow: 0px 0px 10px 5px black;
+    border-radius: 5px;
+    padding: 100px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    text-align: center;
+
+
+
+} */
+
+.theCard:hover {
+    transform: rotateY(180deg);
+}
